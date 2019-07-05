@@ -23,5 +23,11 @@ int main(){
 
   printf("Total value: %d\n", a+b);
 
+  if(a+b > 7){
+    printf("You won!\n");
+  }
+  else{
+    printf("You lost!\n");
+  }
   return 0;
 }
