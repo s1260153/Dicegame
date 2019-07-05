@@ -4,6 +4,12 @@
 
 int main(){
   int a,b;
+  char name[50];
+
+  printf("What is your name?\n");
+  scanf("%s",name);
+  printf("Hello, %s!\n", name);
+
 
   srand(time(NULL));
   a = rand() % 6 + 1;
